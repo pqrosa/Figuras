@@ -8,6 +8,22 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Quadrado : NSObject
+@interface Quadrado : NSObject{
+    
+    // Variáveis de instância
+    float largura;
+    float comprimento;
+    
+}
+
+// Método construtor
+-(Quadrado*)initLargura:(float)l comprimento:(float)c;
+
+// Properties
+@property (readonly) float largura;
+@property (readonly) float comprimento;
+
+// Métodos públicos
+-(float)area;
 
 @end

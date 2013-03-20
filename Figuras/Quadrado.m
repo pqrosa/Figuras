@@ -10,4 +10,19 @@
 
 @implementation Quadrado
 
+@synthesize largura, comprimento;
+
+-(Quadrado*)initLargura:(float)l comprimento:(float)c{
+    self = [super init];
+    if (self) {
+        largura = l;
+        comprimento = c;
+    }
+    return self;
+}
+
+-(float)area{
+    return largura * comprimento;
+}
+
 @end

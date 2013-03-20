@@ -13,6 +13,8 @@
 		37B47C0616FA2FCC005FFFB9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 37B47C0416FA2FCC005FFFB9 /* Credits.rtf */; };
 		37B47C0916FA2FCC005FFFB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B47C0816FA2FCC005FFFB9 /* AppDelegate.m */; };
 		37B47C0C16FA2FCC005FFFB9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37B47C0A16FA2FCC005FFFB9 /* MainMenu.xib */; };
+		37B47C1316FA317D005FFFB9 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 37B47C1216FA317D005FFFB9 /* README */; };
+		37B47C1616FA31EC005FFFB9 /* Quadrado.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B47C1516FA31EC005FFFB9 /* Quadrado.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		37B47C0716FA2FCC005FFFB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37B47C0816FA2FCC005FFFB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		37B47C0B16FA2FCC005FFFB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		37B47C1216FA317D005FFFB9 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		37B47C1416FA31EC005FFFB9 /* Quadrado.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quadrado.h; sourceTree = "<group>"; };
+		37B47C1516FA31EC005FFFB9 /* Quadrado.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quadrado.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +91,8 @@
 				37B47C0816FA2FCC005FFFB9 /* AppDelegate.m */,
 				37B47C0A16FA2FCC005FFFB9 /* MainMenu.xib */,
 				37B47BFC16FA2FCC005FFFB9 /* Supporting Files */,
+				37B47C1416FA31EC005FFFB9 /* Quadrado.h */,
+				37B47C1516FA31EC005FFFB9 /* Quadrado.m */,
 			);
 			path = Figuras;
 			sourceTree = "<group>";
@@ -98,6 +105,7 @@
 				37B47C0116FA2FCC005FFFB9 /* main.m */,
 				37B47C0316FA2FCC005FFFB9 /* Figuras-Prefix.pch */,
 				37B47C0416FA2FCC005FFFB9 /* Credits.rtf */,
+				37B47C1216FA317D005FFFB9 /* README */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -156,6 +164,7 @@
 				37B47C0016FA2FCC005FFFB9 /* InfoPlist.strings in Resources */,
 				37B47C0616FA2FCC005FFFB9 /* Credits.rtf in Resources */,
 				37B47C0C16FA2FCC005FFFB9 /* MainMenu.xib in Resources */,
+				37B47C1316FA317D005FFFB9 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +177,7 @@
 			files = (
 				37B47C0216FA2FCC005FFFB9 /* main.m in Sources */,
 				37B47C0916FA2FCC005FFFB9 /* AppDelegate.m in Sources */,
+				37B47C1616FA31EC005FFFB9 /* Quadrado.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,14 @@
+Primeiro exercício: Figuras Geométricas
+
+- Crie uma classe chamada Quadrado
+- Crie 2 variáveis de instância do tipo float: largura e comprimento
+- Crie um construtor que recebe como parâmetro dois valores float, que serão atribuídos nas variáveis largura e comprimento
+- Crie duas properties do tipo "read only" com os valores das variáveis de instância
+- Crie o método "area" com retorno do tipo float, que retorna a área do quadrado (largura x comprimento)
+
+- Crie uma classe chamada Triangulo, filha de Quadrado, que vai sobreescrever o método "area", dividindo o valor do método da classe Quadrado por 2
+
+- No arquivo main.m, crie uma instância de classe Quadrado e outra instância da classe Triangulo, usando os construtores personalizados
+- Imprima no log as seguintes mensagens:
+    . "Quadrado => largura: xxx, comprimento: yyy, área: zzz",
+    . "Triangulo => largura: xxx, comprimento: yyy, área: zzz", substituindo xxx, yyy e zzz pelos valores correspondentes
